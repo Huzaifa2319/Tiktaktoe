@@ -1,0 +1,36 @@
+.gbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.gbox button {
+  height: 1in;
+  width: 1in;
+}
+
+.cont {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: rgb(63, 198, 63);
+}
+
+.game {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+h1,
+h2 {
+  color: white;
+}

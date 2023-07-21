@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiktaktoe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <h1>Tik Tac Toe</h1>
+      <button onclick="reset()" class="btn btn-warning">reset</button>
+      <h2 id="player">Start Game</h2>
+      <div class="cont">
+        <div class="gbox" id="gr">
+          <button id="b1" onclick="clicked(this)">-</button>
+          <button id="b2" onclick="clicked(this)">-</button>
+          <button id="b3" onclick="clicked(this)">-</button>
+          <button id="b4" onclick="clicked(this)">-</button>
+          <button id="b5" onclick="clicked(this)">-</button>
+          <button id="b6" onclick="clicked(this)">-</button>
+          <button id="b7" onclick="clicked(this)">-</button>
+          <button id="b8" onclick="clicked(this)">-</button>
+          <button id="b9" onclick="clicked(this)">-</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
